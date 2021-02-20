@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "使用说明",
+  "usingComponents": {
+    "app-rich": "/components/basic-component/app-rich/parse"
+  }
+}

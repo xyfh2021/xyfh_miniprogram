@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "秒杀首页",
+  "usingComponents": {
+    "product-list": "/plugins/miaosha/components/app-product-list"
+  }
+}

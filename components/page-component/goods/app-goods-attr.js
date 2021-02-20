@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/page-component/goods/app-goods-attr"],{"2c63":function(t,r,n){},"8c69":function(t,r,n){"use strict";Object.defineProperty(r,"__esModule",{value:!0}),r.default=void 0;var a={name:"app-goods-attr",props:{selectAttr:{type:Object,default:function(){return{}}},attrGroups:{type:Array,default:function(){return[]}},attr:{type:Array,default:function(){return[]}}},data:function(){return{newAttrGroups:[],pictureList:[],attrCount:0,attrName:""}},watch:{attrGroups:function(){this.getData()}},methods:{getData:function(){var t=this;t.newAttrGroups=[],t.pictureList=[],t.attrCount=0,t.attrName="",t.attrGroups.forEach(function(r,n){t.attrName||(t.attrName=r.attr_group_name,r.attr_list.forEach(function(){t.attrCount+=1})),0===n&&r.attr_list.forEach(function(r){t.newAttrGroups.length<3&&t.newAttrGroups.push(r),r.pic_url&&t.pictureList.length<5&&t.pictureList.push(r.pic_url)})})}},mounted:function(){this.getData()}};r.default=a},"9dc1":function(t,r,n){"use strict";n.r(r);var a=n("e8a2"),e=n("c4d0");for(var u in e)"default"!==u&&function(t){n.d(r,t,function(){return e[t]})}(u);n("dbfc");var o=n("2877"),c=Object(o["a"])(e["default"],a["a"],a["b"],!1,null,"17aa6282",null);r["default"]=c.exports},c4d0:function(t,r,n){"use strict";n.r(r);var a=n("8c69"),e=n.n(a);for(var u in a)"default"!==u&&function(t){n.d(r,t,function(){return a[t]})}(u);r["default"]=e.a},dbfc:function(t,r,n){"use strict";var a=n("2c63"),e=n.n(a);e.a},e8a2:function(t,r,n){"use strict";var a=function(){var t=this,r=t.$createElement;t._self._c},e=[];n.d(r,"a",function(){return a}),n.d(r,"b",function(){return e})}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/page-component/goods/app-goods-attr-create-component',
+    {
+        'components/page-component/goods/app-goods-attr-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("9dc1"))
+        })
+    },
+    [['components/page-component/goods/app-goods-attr-create-component']]
+]);                

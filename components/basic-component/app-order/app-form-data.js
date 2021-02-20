@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/basic-component/app-order/app-form-data"],{"15e3":function(n,t,e){"use strict";var r=e("d633"),o=e.n(r);o.a},"315c":function(n,t,e){"use strict";var r=function(){var n=this,t=n.$createElement,e=(n._self._c,n.__map(n.detail,function(t,e){var r=n.__map(t.form_data,function(t,e){var r=[",","",null].indexOf(String(t.value)),o=Array.isArray(t.value);return{$orig:n.__get_orig(t),g0:r,g1:o}});return{$orig:n.__get_orig(t),l0:r}}));n.$mp.data=Object.assign({},{$root:{l1:e}})},o=[];e.d(t,"a",function(){return r}),e.d(t,"b",function(){return o})},"441a":function(n,t,e){"use strict";e.r(t);var r=e("6b61"),o=e.n(r);for(var a in r)"default"!==a&&function(n){e.d(t,n,function(){return r[n]})}(a);t["default"]=o.a},"6b61":function(n,t,e){"use strict";(function(n){Object.defineProperty(t,"__esModule",{value:!0}),t.default=void 0;var r=function(){return e.e("components/page-component/app-order-goods-info/app-order-goods-info").then(e.bind(null,"1602"))},o={components:{appOrderGoodsInfo:r},props:{detail:{type:Array,default:[]}},data:function(){return{}},methods:{showImgg:function(t){n.previewImage({current:t,urls:[t]})}}};t.default=o}).call(this,e("543d")["default"])},"74a9":function(n,t,e){"use strict";e.r(t);var r=e("315c"),o=e("441a");for(var a in o)"default"!==a&&function(n){e.d(t,n,function(){return o[n]})}(a);e("15e3");var u=e("2877"),i=Object(u["a"])(o["default"],r["a"],r["b"],!1,null,"6561e36f",null);t["default"]=i.exports},d633:function(n,t,e){}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/basic-component/app-order/app-form-data-create-component',
+    {
+        'components/basic-component/app-order/app-form-data-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("74a9"))
+        })
+    },
+    [['components/basic-component/app-order/app-form-data-create-component']]
+]);                

@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/page-component/goods/app-goods-detail"],{3154:function(t,n,e){"use strict";var o=function(){var t=this,n=t.$createElement;t._self._c},a=[];e.d(n,"a",function(){return o}),e.d(n,"b",function(){return a})},"5abf":function(t,n,e){"use strict";e.r(n);var o=e("3154"),a=e("ae4c");for(var c in a)"default"!==c&&function(t){e.d(n,t,function(){return a[t]})}(c);e("baba");var i=e("2877"),r=Object(i["a"])(a["default"],o["a"],o["b"],!1,null,"407cc846",null);n["default"]=r.exports},ab73:function(t,n,e){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),n.default=void 0;var o=function(){return Promise.all([e.e("common/vendor"),e.e("components/basic-component/app-rich/parse")]).then(e.bind(null,"cb0e"))},a=function(){return Promise.all([e.e("common/vendor"),e.e("components/page-component/app-comments/app-comments")]).then(e.bind(null,"5562"))},c={name:"app-goods-detail",components:{"app-rich-text":o,"app-comments":a},props:{goods:{type:Object,default:function(){return{}}},detail:{type:String,default:function(){return""}}},created:function(){this.$store.dispatch("gConfig/setImageWidth",48)},computed:{newDetail:function(){var t="正在加载数据，模拟网络延迟2秒😝";return this.goods&&"undefined"!=typeof this.goods.detail?t=this.goods.detail:this.detail&&(t=this.detail),t}}};n.default=c},ae4c:function(t,n,e){"use strict";e.r(n);var o=e("ab73"),a=e.n(o);for(var c in o)"default"!==c&&function(t){e.d(n,t,function(){return o[t]})}(c);n["default"]=a.a},baba:function(t,n,e){"use strict";var o=e("cdb5"),a=e.n(o);a.a},cdb5:function(t,n,e){}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/page-component/goods/app-goods-detail-create-component',
+    {
+        'components/page-component/goods/app-goods-detail-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("5abf"))
+        })
+    },
+    [['components/page-component/goods/app-goods-detail-create-component']]
+]);                
